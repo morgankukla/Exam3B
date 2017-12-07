@@ -266,7 +266,7 @@
                       issues that caused the final calculation to be incorrect. 
                       
                   </p>
-                  <p>To view and test this Project, please click here: 
+                  <p>To view and test this assignment, please click here: 
                       <a href="http://f17-msci3300-17.azurewebsites.net/Homework_Three/">Simple Salary Calculator</a>
                   </p>
                   <ul class="list-inline">
@@ -298,13 +298,19 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="text-uppercase">Database Read</h2>
+                  <p class="item-intro text-muted">Set up a database connection and read in a table.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/hw4.0.JPG" alt="">
+                  <p>
+                      Words
+                      
+                  </p>
+                  <p>
+                      To view this assignment, please click here: 
+                      <a href="http://f17-msci3300-17.azurewebsites.net/HW4/"> Database Read </a>
+                  </p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Explore</li>
+                    <li>Date: October 2017</li>
                     <li>Copyright &copy; Morgan Kukla</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
