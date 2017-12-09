@@ -376,8 +376,16 @@
                   <p class="item-intro text-muted">Set up a database connection and read in a table.</p>
                   <img class="img-fluid d-block mx-auto" src="img/hw4.0.JPG" alt="">
                   <p>
-                      Words
+                      In this assignment, we were asked to set up a connection between Oracle SQL Developer. We then used
+                      this connection to create a database and have our application read in the table from the database. 
+                      We used servlets and queries to read in the table from the database.
                       
+                  </p>
+                  <p>
+                      Lessons Learned: In this assignment, I had trouble with my query in the web application. It took me 
+                      a while to correctly set up the query and have the servlet and JSP return the table like it was in 
+                      the database. Once I was able to get the table to return correct, I formatted the table using CSS
+                      to have table borders and headers.
                   </p>
                   <p>
                       To view this assignment, please click here: 
@@ -425,10 +433,10 @@
                   </p>
                   <p>
                   The table in this assignment contains CSS formatting that includes the following features:
-                  <ul> Table border and Padding </ul>
-                  <ul> Horizontal and Vertical Alignment</ul>
-                  <ul> Hoverable Table </ul>
-                  <ul> Striped rows</ul>
+                  <p> Table border and Padding </p>
+                  <p> Horizontal and Vertical Alignment</p>
+                  <p> Hoverable Table </p>
+                  <p> Striped rows</p>
                   </p>
                   <p>
                      Lessons Learned: The formatting of the table, specifically the background and row colors, was very
@@ -541,7 +549,7 @@
                       <a href="http://f17-msci3300-g5.azurewebsites.net/G5_Project/"> Task Manager Application </a>
                   </p>
                   <ul class="list-inline">
-                      <li>Date: January 2017</li>
+                      <li>Date: December 2017</li>
                     <li>Copyright &copy; Morgan Kukla</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -576,7 +584,7 @@
                       <p><a href="./Drawings/HW4Index.JPG"> Index Flow </a></p>
                       <p><a href="./Drawings/HW4ReadFlow.JPG"> Read Flow </a></p>
                   <ul class="list-inline">
-                      <li>Date: January 2017</li>
+                      <li>Date: September 2017</li>
                     <li>Copyright &copy; Morgan Kukla</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -609,7 +617,7 @@
                   <p><a href="./Drawings/HW5AddFlow.JPG"> Add Flow </a></p>
                   <p><a href="./Drawings/HW5DeleteFlow.JPG"> Delete Flow </a></p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
+                    <li>Date: October 2017</li>
                     <li>Copyright &copy; Morgan Kukla</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -642,7 +650,7 @@
                   <p><a href="./Drawings/HW6SearchFLow.JPG"> Search Flow </a></p>
                   <p><a href="./Drawings/HW6UpdateFlow.JPG"> Update Flow </a></p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
+                    <li>Date: October 2017</li>
                     <li>Copyright &copy; Morgan Kukla</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -675,10 +683,10 @@
                   <p class="item-intro text-muted">Deliverables include:</p>
                   <p><a href="./Drawings/User Stories and Priority.pdf"> User Stories </a></p>
                   <p><a href="./Drawings/ProjectClassDiagrams.JPG"> Class Diagrams </a></p>
-                  <p><a href="./Drawings/ProjectERDiagrams.JPG"> ER Diagrams </a></p>
+                  <p><a href="./Drawings/ProjectERDiagram.JPG"> ER Diagrams </a></p>
                   <p><a href="./Drawings/Homepage login and create account screen sketch.pdf"> Homepage, login and create account screen sketches </a></p>
                   <p><a href="./Drawings/Login.pdf"> Login Flow </a></p>
-                  <p><a href="./Drawings/ProjectAdduser.JPG"> Add User Flow </a></p>
+                  <p><a href="./Drawings/ProjectAddUser.JPG"> Add User Flow </a></p>
                   <p><a href="./Drawings/ProjectDeleteUser.JPG"> Delete User Flow </a></p>
                   <p><a href="./Drawings/ProjectReadTasks.JPG"> Read Tasks Flow </a></p>
                   <p><a href="./Drawings/ProjectReadUser.JPG"> Read User Flow </a></p>
@@ -690,7 +698,7 @@
                   <p><a href="./Drawings/html prototype.pdf"> HTML Prototype </a></p>
                   <p><a href="./Drawings/WireFrame.pdf"> Wireframe </a></p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
+                    <li>Date: December 2017</li>
                     <li>Copyright &copy; Morgan Kukla</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
