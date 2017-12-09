@@ -46,6 +46,9 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#team">About</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact Me</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -131,6 +134,20 @@
               <p class="text-muted">Complete Web App</p>
             </div>
           </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+                <img class="img-fluid" src="img/FinalProject.JPG" alt="">
+            </a>
+            <div class="portfolio-caption">
+                <h4>Task Manager Final Project</h4>
+              <p class="text-muted">Functioning Web Application</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -149,7 +166,7 @@
         </div>
         <div class="row">
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
               <div class="portfolio-hover">
               </div>
               <img class="img-fluid" src="img/DatabaseImage.jpg" alt="">
@@ -157,31 +174,43 @@
             <div class="portfolio-caption">
               <h4 align="center">Homework 4</h4>
               <br>
-              <p class="text-muted" align="center">Read Data Flow, Database Diagram, Class Diagram, Wireframe</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-              <div class="portfolio-hover">
-              </div>
-              <img class="img-fluid" src="img/addDelete.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4 align="center">Homework 5</h4>
-              <p class="text-muted" align="center">Add and Delete Wireframe</p>
+              <p class="text-muted" align="center">Read Data Flow, Index Flow, Database Diagram, and Class Diagram</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
               <div class="portfolio-hover">
               </div>
+              <img class="img-fluid" src="img/addDelete.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4 align="center">Homework 5</h4>
+              <p class="text-muted" align="center">Add and Delete Flow</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
+              <div class="portfolio-hover">
+              </div>
               <img class="img-fluid" src="img/update.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4 align="center">Homework 6</h4>
-              <p class="text-muted" align="center">Update and Delete Wireframe</p>
+              <h4 align="center">Final Project</h4>
+              <p class="text-muted" align="center">Update and Delete Flow</p>
             </div>
           </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
+              <div class="portfolio-hover">
+              </div>
+              <img class="img-fluid" src="img/FinalProject.JPG" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4 align="center">Final Project</h4>
+              <p class="text-muted" align="center">User stories, Wireframe, Backlog, Burndown Chart, Login and Create
+              User Sketches, Login Flow, HTML Prototype</p>
+            </div>
+          </div> 
         </div>
       </div>
     </section>
@@ -220,6 +249,51 @@
                 </li>
               </ul>
             </div>
+    </section>
+    
+    <!-- Contact -->
+    <section id="contact">   
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Contact Me</h2>
+            <h3 class="section-subheading text-muted">Please provide your name, email, phone number and message below.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <form id="contactForm" name="sentMessage" novalidate>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input class="form-control" id="name" type="text" placeholder="Your Name *" required data-validation-required-message="Please enter your name.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" id="email" type="email" placeholder="Your Email *" required data-validation-required-message="Please enter your email address.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required data-validation-required-message="Please enter your phone number.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <textarea class="form-control" id="message" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-lg-12 text-center">
+                  <div id="success"></div>
+                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Footer -->
@@ -406,6 +480,11 @@
                     for a record.
                   </p>
                   <p>
+                      Lessons Learned: I struggled at first with the getting the picture in the header and the description
+                      to be formatted how I wanted it. After I got the base formatting done, it was easy to push the formatting
+                      to each page on the web application. 
+                  </p>
+                  <p>
                       To view this assignment, please click:
                       <a href="http://f17-msci3300-17.azurewebsites.net/HomeworkSix/"> Full Web Application </a>
                   </p>
@@ -438,13 +517,31 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="text-uppercase">Final Project</h2>
+                  <p class="item-intro text-muted">Task Manager Web Application</p>
+                  <img class="img-fluid d-block mx-auto" src="img/FinalProject.JPG" alt="">
+                  <p> 
+                      In this assignment, we were tasked with designing and completing a fully functioning task 
+                      manager. The user can create an account, login, add, delete and update tasks as well as 
+                      updating their own user information. Admins can login, view, add, delete and update everyones
+                      tasks, view update and delete any user or admin account, and create, add and delete their own
+                      tasks. We accomplished every user story except for a user being able to delete their own account
+                      and create a checkbox that allows the user to check when a task is complete.
+                  </p>
+                  <p>
+                      Lessons Learned: Throughout this project, I learned that I should have followed user stories priority
+                      list more carefully. I missed the user story about the user being able to delete their account and I 
+                      spent too much time trying to get update tasks to work. I am extremely proud of this project because 
+                      I did all of the functionality while my partner did all of the bootstrap formatting. I was worried about
+                      getting everything to work, but I worked extremely hard and I now have a better understanding of web application
+                      design.
+                  </p>
+                  <p>
+                      To view the final project, please click here: 
+                      <a href="http://f17-msci3300-g5.azurewebsites.net/G5_Project/"> Task Manager Application </a>
+                  </p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Southwest</li>
+                      <li>Date: January 2017</li>
                     <li>Copyright &copy; Morgan Kukla</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -457,7 +554,7 @@
         </div>
       </div>
     </div>
-
+    
     <!-- Modal 6 -->
     <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
@@ -472,13 +569,47 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="text-uppercase">Homework 4</h2>
+                  <p class="item-intro text-muted">Deliverables include: Class Diagram, Database Diagram, Index flow and Read Flow.</p>
+                      <p><a href="./Drawings/HW4ClassDiagram.JPG"> Class Diagram </a> </p>
+                      <p><a href="./Drawings/HW4DatabaseDiagram.JPG"> Database Diagram </a></p>
+                      <p><a href="./Drawings/HW4Index.JPG"> Index Flow </a></p>
+                      <p><a href="./Drawings/HW4ReadFlow.JPG"> Read Flow </a></p>
+                  <ul class="list-inline">
+                      <li>Date: January 2017</li>
+                    <li>Copyright &copy; Morgan Kukla</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Homework 5</h2>
+                  <p class="item-intro text-muted">Deliverables include: Add flow and Delete flow.</p>
+                  <p><a href="./Drawings/HW5AddFlow.JPG"> Add Flow </a></p>
+                  <p><a href="./Drawings/HW5DeleteFlow.JPG"> Delete Flow </a></p>
                   <ul class="list-inline">
                     <li>Date: January 2017</li>
-                    <li>Client: Window</li>
                     <li>Copyright &copy; Morgan Kukla</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -493,7 +624,7 @@
     </div>
     
     <!-- Modal 7 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -506,13 +637,12 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="text-uppercase">Homework 6</h2>
+                  <p class="item-intro text-muted">Deliverables include: Search Flow and Update Flow.</p>
+                  <p><a href="./Drawings/HW6SearchFLow.JPG"> Search Flow </a></p>
+                  <p><a href="./Drawings/HW6UpdateFlow.JPG"> Update Flow </a></p>
                   <ul class="list-inline">
                     <li>Date: January 2017</li>
-                    <li>Client: Window</li>
                     <li>Copyright &copy; Morgan Kukla</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -525,7 +655,54 @@
         </div>
       </div>
     </div>
-
+    
+    
+<!-- Modal 8 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Final Project</h2>
+                  <p class="item-intro text-muted">Deliverables include:</p>
+                  <p><a href="./Drawings/User Stories and Priority.pdf"> User Stories </a></p>
+                  <p><a href="./Drawings/ProjectClassDiagrams.JPG"> Class Diagrams </a></p>
+                  <p><a href="./Drawings/ProjectERDiagrams.JPG"> ER Diagrams </a></p>
+                  <p><a href="./Drawings/Homepage login and create account screen sketch.pdf"> Homepage, login and create account screen sketches </a></p>
+                  <p><a href="./Drawings/Login.pdf"> Login Flow </a></p>
+                  <p><a href="./Drawings/ProjectAdduser.JPG"> Add User Flow </a></p>
+                  <p><a href="./Drawings/ProjectDeleteUser.JPG"> Delete User Flow </a></p>
+                  <p><a href="./Drawings/ProjectReadTasks.JPG"> Read Tasks Flow </a></p>
+                  <p><a href="./Drawings/ProjectReadUser.JPG"> Read User Flow </a></p>
+                  <p><a href="./Drawings/ProjectTasksFlow.JPG"> Tasks Flow </a></p>
+                  <p><a href="./Drawings/ProjectUpdateTasks.JPG"> Update Tasks Flow </a></p>
+                  <p><a href="./Drawings/ProjectUpdateUser.JPG"> Update User Flow </a></p>
+                  <p><a href="./Drawings/ProjectUsersFlow.JPG"> Users Flow </a></p>
+                  <p><a href="./Drawings/Group Project Software Design.pdf"> Backlog and Burndown Chart </a></p>
+                  <p><a href="./Drawings/html prototype.pdf"> HTML Prototype </a></p>
+                  <p><a href="./Drawings/WireFrame.pdf"> Wireframe </a></p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Copyright &copy; Morgan Kukla</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
