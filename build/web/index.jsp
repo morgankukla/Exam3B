@@ -46,6 +46,9 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#team">About</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Notable Classes</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -219,7 +222,7 @@
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">About Me:</h2>
             <p>
-                Dynamic and motivated professional with the ability excel at any task and
+                Dynamic and motivated professional with the ability to excel at any task and
                 to exceed while working under pressure. Skilled in working in teams, demonstrating exceptional
                 communication skills, and making critical decisions during challenges. Adaptable and transformational 
                 leader with an ability to work independently and developing opportunities that further 
@@ -248,6 +251,111 @@
             </div>
     </section>
     
+ <!-- Skills -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Notable Classes</h2>
+            <h3 class="section-subheading text-muted">Major Courses Completed</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Fall 2017</h4>
+                    <h4 class="subheading">Data Mining</h4>
+                  </div>
+                  <div class="timeline-body">
+                      <p class="text-muted">
+                          Introduction to predictive analytics methods motivated by problems in 
+                          operations, marketing, finance and accounting; 
+                          data and text mining techniques, including classification, clustering, and association analysis.
+                      </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Fall 2017</h4>
+                    <h4 class="subheading">Business Programming</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Introduction to algorithms, data structures, and object-oriented 
+                        programming constructs to solve business problems.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Spring 2018</h4>
+                    <h4 class="subheading">Data Communications</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Computer communications: computer-communication system, hardware, 
+                        data transmission principles; 
+                        examples of existing communication networks; related managerial issues.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Spring 2018</h4>
+                    <h4 class="subheading">Analyzing Data for Business Intelligence</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Introduction to methods and tools of processing, manipulating, 
+                        analyzing, and visualizing data for descriptive analytics and insights that can aid business decision making.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Spring 2018</h4>
+                    <h4 class="subheading">Business Analytics Capstone</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Individual or team senior project incorporating track-specific
+                        knowledge and skills from business analytics curriculum; projects from real-world 
+                        customer involving descriptive, predictive, and prescriptive; outcomes include client 
+                        presentation and project report.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <h4>Graduation
+                    <br>Anticipated
+                    <br>Spring 2018!</h4>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer -->
     <footer>
